@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>/Users/samerabdulkarim/IdeaProjects/comp303-a5/src</OriginalElement>
+  <nodes>
+    <node x="1438.0" y="568.0">eventbrite.events.events.Workshops</node>
+    <node x="428.99999999999994" y="1048.0">eventbrite.events.observer.ConcertSubject</node>
+    <node x="1025.0" y="1048.0">eventbrite.events.observer.ScreeningSubject</node>
+    <node x="373.375" y="44.0">eventbrite.events.filtered.MultiEvent</node>
+    <node x="834.0" y="1048.0">eventbrite.events.observer.GalaSubject</node>
+    <node x="1200.5" y="44.0">eventbrite.events.observer.Observer</node>
+    <node x="1260.0" y="879.0">eventbrite.events.visitor.VipVisitor</node>
+    <node x="0.0" y="879.0">eventbrite.events.guests.VIP</node>
+    <node x="1379.5" y="754.0">eventbrite.events.visitor.Visitor</node>
+    <node x="246.0" y="1168.0">eventbrite.events.filtered.predicates.LocationFilter</node>
+    <node x="857.0" y="1168.0">eventbrite.Ratings</node>
+    <node x="0.0" y="568.0">eventbrite.events.events.Screenings</node>
+    <node x="100.99999999999999" y="754.0">eventbrite.events.guests.Guest</node>
+    <node x="202.0" y="879.0">eventbrite.events.guests.Artist</node>
+    <node x="600.0" y="1168.0">eventbrite.Location</node>
+    <node x="726.75" y="754.0">eventbrite.events.observer.Subject</node>
+    <node x="680.375" y="44.0">eventbrite.events.filtered.Filterable</node>
+    <node x="1499.0" y="879.0">eventbrite.events.visitor.ProfitVisitor</node>
+    <node x="551.0" y="524.0">eventbrite.events.events.Festival</node>
+    <node x="983.375" y="44.0">eventbrite.events.visitor.Visitable</node>
+    <node x="655.625" y="278.0">eventbrite.events.filtered.FilterResult</node>
+    <node x="1107.0" y="1168.0">eventbrite.events.filtered.predicates.VipFilter</node>
+    <node x="624.0" y="1048.0">eventbrite.events.observer.WorkshopSubject</node>
+    <node x="1058.0" y="201.0">eventbrite.events.events.AbstractEvent</node>
+    <node x="10.0" y="1026.0">eventbrite.events.guests.VIPs</node>
+    <node x="1417.25" y="267.0">eventbrite.events.events.ComingSoon</node>
+    <node x="0.0" y="1168.0">eventbrite.events.filtered.predicates.PriceFilter</node>
+    <node x="957.0" y="568.0">eventbrite.events.events.Galas</node>
+    <node x="1763.0" y="754.0">eventbrite.EventManagement</node>
+    <node x="726.75" y="901.0">eventbrite.events.observer.AbstractSubject</node>
+    <node x="1417.25" y="0.0">eventbrite.events.events.Event</node>
+    <node x="1982.0" y="546.0">eventbrite.events.events.Concert</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="eventbrite.events.events.Galas" target="eventbrite.events.events.AbstractEvent" relationship="GENERALIZATION">
+      <point x="0.0" y="-48.5" />
+      <point x="0.0" y="136.5" />
+    </edge>
+    <edge source="eventbrite.events.events.Concert" target="eventbrite.events.events.AbstractEvent" relationship="GENERALIZATION">
+      <point x="0.0" y="-70.5" />
+      <point x="2228.5" y="499.0" />
+      <point x="1187.5" y="499.0" />
+      <point x="0.0" y="136.5" />
+    </edge>
+    <edge source="eventbrite.events.events.AbstractEvent" target="eventbrite.events.observer.Observer" relationship="REALIZATION">
+      <point x="0.0" y="-136.5" />
+      <point x="1187.5" y="171.0" />
+      <point x="1288.5" y="171.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="eventbrite.events.events.AbstractEvent" target="eventbrite.events.events.Event" relationship="REALIZATION">
+      <point x="0.0" y="-136.5" />
+      <point x="1187.5" y="181.0" />
+      <point x="1546.75" y="181.0" />
+      <point x="0.0" y="70.5" />
+    </edge>
+    <edge source="eventbrite.events.guests.Artist" target="eventbrite.events.guests.Guest" relationship="REALIZATION">
+      <point x="0.0" y="-48.5" />
+      <point x="293.0" y="854.0" />
+      <point x="192.0" y="854.0" />
+      <point x="0.0" y="37.5" />
+    </edge>
+    <edge source="eventbrite.events.events.AbstractEvent" target="eventbrite.events.visitor.Visitable" relationship="REALIZATION">
+      <point x="0.0" y="-136.5" />
+      <point x="1187.5" y="161.0" />
+      <point x="1077.375" y="161.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="eventbrite.events.events.ComingSoon" target="eventbrite.events.events.Event" relationship="REALIZATION">
+      <point x="0.0" y="-70.5" />
+      <point x="0.0" y="70.5" />
+    </edge>
+    <edge source="eventbrite.events.observer.ConcertSubject" target="eventbrite.events.observer.AbstractSubject" relationship="GENERALIZATION">
+      <point x="0.0" y="-26.5" />
+      <point x="516.5" y="1023.0" />
+      <point x="819.25" y="1023.0" />
+      <point x="0.0" y="48.5" />
+    </edge>
+    <edge source="eventbrite.events.events.Screenings" target="eventbrite.events.events.AbstractEvent" relationship="GENERALIZATION">
+      <point x="0.0" y="-48.5" />
+      <point x="265.5" y="499.0" />
+      <point x="1187.5" y="499.0" />
+      <point x="0.0" y="136.5" />
+    </edge>
+    <edge source="eventbrite.events.observer.WorkshopSubject" target="eventbrite.events.observer.AbstractSubject" relationship="GENERALIZATION">
+      <point x="0.0" y="-26.5" />
+      <point x="719.0" y="1023.0" />
+      <point x="819.25" y="1023.0" />
+      <point x="0.0" y="48.5" />
+    </edge>
+    <edge source="eventbrite.events.filtered.FilterResult" target="eventbrite.events.visitor.Visitable" relationship="REALIZATION">
+      <point x="70.75" y="-59.5" />
+      <point x="867.875" y="181.0" />
+      <point x="949.625" y="181.0" />
+      <point x="949.625" y="171.0" />
+      <point x="1077.375" y="171.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="eventbrite.events.observer.ScreeningSubject" target="eventbrite.events.observer.AbstractSubject" relationship="GENERALIZATION">
+      <point x="0.0" y="-26.5" />
+      <point x="1120.0" y="1023.0" />
+      <point x="819.25" y="1023.0" />
+      <point x="0.0" y="48.5" />
+    </edge>
+    <edge source="eventbrite.events.filtered.FilterResult" target="eventbrite.events.filtered.Filterable" relationship="REALIZATION">
+      <point x="70.75" y="-59.5" />
+      <point x="867.875" y="181.0" />
+      <point x="949.625" y="181.0" />
+      <point x="949.625" y="161.0" />
+      <point x="821.875" y="161.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="eventbrite.events.events.Workshops" target="eventbrite.events.events.AbstractEvent" relationship="GENERALIZATION">
+      <point x="0.0" y="-48.5" />
+      <point x="1700.0" y="499.0" />
+      <point x="1187.5" y="499.0" />
+      <point x="0.0" y="136.5" />
+    </edge>
+    <edge source="eventbrite.events.visitor.ProfitVisitor" target="eventbrite.events.visitor.Visitor" relationship="REALIZATION">
+      <point x="0.0" y="-37.5" />
+      <point x="1608.5" y="854.0" />
+      <point x="1489.0" y="854.0" />
+      <point x="0.0" y="37.5" />
+    </edge>
+    <edge source="eventbrite.events.guests.VIPs" target="eventbrite.events.guests.VIP" relationship="GENERALIZATION">
+      <point x="0.0" y="-48.5" />
+      <point x="0.0" y="48.5" />
+    </edge>
+    <edge source="eventbrite.events.observer.AbstractSubject" target="eventbrite.events.observer.Subject" relationship="REALIZATION">
+      <point x="0.0" y="-48.5" />
+      <point x="0.0" y="48.5" />
+    </edge>
+    <edge source="eventbrite.events.observer.GalaSubject" target="eventbrite.events.observer.AbstractSubject" relationship="GENERALIZATION">
+      <point x="0.0" y="-26.5" />
+      <point x="919.5" y="1023.0" />
+      <point x="819.25" y="1023.0" />
+      <point x="0.0" y="48.5" />
+    </edge>
+    <edge source="eventbrite.events.guests.VIP" target="eventbrite.events.guests.Guest" relationship="REALIZATION">
+      <point x="0.0" y="-48.5" />
+      <point x="91.0" y="854.0" />
+      <point x="192.0" y="854.0" />
+      <point x="0.0" y="37.5" />
+    </edge>
+    <edge source="eventbrite.events.filtered.FilterResult" target="eventbrite.events.filtered.MultiEvent" relationship="GENERALIZATION">
+      <point x="-70.75" y="-59.5" />
+      <point x="726.375" y="181.0" />
+      <point x="516.875" y="181.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="eventbrite.events.visitor.VipVisitor" target="eventbrite.events.visitor.Visitor" relationship="REALIZATION">
+      <point x="0.0" y="-37.5" />
+      <point x="1369.5" y="854.0" />
+      <point x="1489.0" y="854.0" />
+      <point x="0.0" y="37.5" />
+    </edge>
+    <edge source="eventbrite.events.events.Festival" target="eventbrite.events.events.AbstractEvent" relationship="GENERALIZATION">
+      <point x="0.0" y="-92.5" />
+      <point x="744.0" y="499.0" />
+      <point x="1187.5" y="499.0" />
+      <point x="0.0" y="136.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.39455252918287936" showDependencies="false" x="1237.4999999999998" y="632.4999999999999" />
+  <SelectedNodes>
+    <node>eventbrite.events.observer.AbstractSubject</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
