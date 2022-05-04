@@ -1,7 +1,5 @@
-<---COMP303 PROJECTS--->
+<—COMP250 Projects—>
 
-1. These assignments highlight the importance of Design Patterns, if you're contemplating on whether to take this course or not due to its difficulty definitely do it, it might ruin your GPA but tbh it is very much worth it.
+1. This course as my second programming course was definitely challenging to be honest, at first I thought I was not cut out for computer science but I am glad I stuck with it
 
-2. I managed to score an A, by doing 3 simple things. Watch lectures -> immediately read book after -> solve exercises without looking at solutions.
-
-3. The assignments definitely improved my programming ability. The use of lambda arguments, unit testing, design patterns, predicates, functional programming all improved me as a programmer and definitely propelled me in terms of skills.
+2. It introduced the basics of Java, but also the basics of most important Data Structures like heaps, maps, graphs, linked lists, and much more
